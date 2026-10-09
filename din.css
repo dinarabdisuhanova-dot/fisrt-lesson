@@ -1,4 +1,4 @@
-{
+*{
     box-sizing: border-box;
     margin: 0;
     padding: 0;
@@ -8,10 +8,14 @@
     display: flex;
     padding: 20px;
   justify-content: space-between;
+  position: relative;
 }
 .info-img{
     border: 2px solid blue;
-    width: 40%;
+    width: 50%;
+}
+.info-img img{
+    width: 100%;
 }
 .info-img .portfolio{
         width: 100%;
@@ -20,7 +24,7 @@
     /* border: 2px solid blue; */
   width: 53%;
   display: flex;
-  display-direction: column;
+  flex-direction: column;
   justify-content: space-evenly;
   padding: 20px;
 }
@@ -41,11 +45,11 @@
     border: 2px solid black;
     background-color: white;
     position: absolute;
-    button: 10px;
+    bottom: 10px;
     left: 100px;
-    wiidth: 150px;
+    width: 150px;
     display: flex;
-    judstify-content: space-around;
+    justify-content: space-around;
 }
 .info-img-icons img{
     width: 50px;
