@@ -1,0 +1,53 @@
+{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.info{
+    border: 2px solid red   ;
+    display: flex;
+    padding: 20px;
+  justify-content: space-between;
+}
+.info-img{
+    border: 2px solid blue;
+    width: 40%;
+}
+.info-img .portfolio{
+        width: 100%;
+    }
+.info-description{
+    /* border: 2px solid blue; */
+  width: 53%;
+  display: flex;
+  display-direction: column;
+  justify-content: space-evenly;
+  padding: 20px;
+}
+.info-description-btns button{
+   margin-right: 10px;
+   background-color:transparent;
+   border-color: purple;
+   border-radius: 5px;
+   border: 1px solid purple;
+   padding: 3px 5px;
+   color: purple;
+}
+.project{
+    background-color: purple;
+    color: white;
+}
+.info-img-icons{
+    border: 2px solid black;
+    background-color: white;
+    position: absolute;
+    button: 10px;
+    left: 100px;
+    wiidth: 150px;
+    display: flex;
+    judstify-content: space-around;
+}
+.info-img-icons img{
+    width: 50px;
+   
+}
